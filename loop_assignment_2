@@ -1,0 +1,26 @@
+def is_prime(num):
+    for i in range(2, num):
+        if num % i == 0:
+            return False
+    return True
+        
+
+def check_number():
+    num = int(input("Enter number between 1 and 20: "))
+    while num < 1 or num > 20:
+        num = int(input("Enter number between 1 and 20: "))
+             
+    if num % 2 == 0:
+        print("f{num} is even number")
+        
+        
+    if num % 2 != 0:
+        print(f"{num} is odd number")
+            
+            
+    if is_prime(num):
+        print(f"{num} is prime number")
+            
+check_number()
+
+    

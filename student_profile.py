@@ -25,9 +25,6 @@ def main():
     run = True
     while run:
         collect_data()
-        response = input("would you like to add more student info? (y/n): ").lower()
-        run = response == "y"
+        response = ("would like to add more student info? (y/n)")
+        run = response == "would like to add more student info? (y/n)"
         
-main()       
-print(student_profile)
-print("goodbye!")

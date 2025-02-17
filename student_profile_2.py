@@ -15,7 +15,6 @@ def collect_data():
     
     student_profile.append(student_info)
     
-    
 def main():
     run = True
     while run:
@@ -25,4 +24,6 @@ def main():
         
 main()
 print(student_profile)
+
+
         
